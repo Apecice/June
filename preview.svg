@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect width="960" height="360" fill="#3a3f4b"/>
+  <text x="40" y="56" fill="#fff" font-size="26" font-weight="700">简历生成器 · Resume Builder</text>
+  <text x="40" y="84" fill="#9aa3b2" font-size="14">零依赖单文件 · 一键切换模板 · 一键导出 PDF</text>
+
+  <!-- 5 mini resume cards -->
+  <g>
+    <!-- card template -->
+    <!-- classic -->
+    <g transform="translate(40,110)">
+      <rect width="160" height="210" rx="8" fill="#fff"/>
+      <rect x="20" y="22" width="120" height="2" fill="#1F5C73"/>
+      <rect x="46" y="14" width="68" height="8" rx="4" fill="#2b2b2b"/>
+      <rect x="58" y="30" width="44" height="5" rx="2.5" fill="#1F5C73"/>
+      <rect x="20" y="58" width="50" height="6" rx="3" fill="#1F5C73"/>
+      <rect x="20" y="72" width="120" height="4" rx="2" fill="#ddd"/>
+      <rect x="20" y="82" width="110" height="4" rx="2" fill="#ddd"/>
+      <rect x="20" y="104" width="50" height="6" rx="3" fill="#1F5C73"/>
+      <rect x="20" y="118" width="120" height="4" rx="2" fill="#ddd"/>
+      <rect x="20" y="128" width="100" height="4" rx="2" fill="#ddd"/>
+      <rect x="20" y="150" width="50" height="6" rx="3" fill="#1F5C73"/>
+      <rect x="20" y="164" width="120" height="4" rx="2" fill="#ddd"/>
+      <text x="80" y="202" fill="#999" font-size="11" text-anchor="middle">经典</text>
+    </g>
+    <!-- modern (sidebar) -->
+    <g transform="translate(220,110)">
+      <rect width="160" height="210" rx="8" fill="#fff"/>
+      <rect width="56" height="210" rx="8" fill="#0F766E"/>
+      <rect x="8" y="16" width="40" height="7" rx="3.5" fill="#fff"/>
+      <rect x="8" y="48" width="40" height="4" rx="2" fill="#cfe9e4"/>
+      <rect x="8" y="58" width="34" height="4" rx="2" fill="#cfe9e4"/>
+      <rect x="72" y="18" width="50" height="6" rx="3" fill="#0F766E"/>
+      <rect x="72" y="34" width="74" height="4" rx="2" fill="#ddd"/>
+      <rect x="72" y="44" width="68" height="4" rx="2" fill="#ddd"/>
+      <rect x="72" y="70" width="50" height="6" rx="3" fill="#0F766E"/>
+      <rect x="72" y="86" width="74" height="4" rx="2" fill="#ddd"/>
+      <rect x="72" y="96" width="60" height="4" rx="2" fill="#ddd"/>
+      <text x="80" y="202" fill="#999" font-size="11" text-anchor="middle">现代</text>
+    </g>
+    <!-- minimal -->
+    <g transform="translate(400,110)">
+      <rect width="160" height="210" rx="8" fill="#fff"/>
+      <rect x="20" y="18" width="80" height="9" rx="4" fill="#333"/>
+      <rect x="20" y="34" width="40" height="5" rx="2.5" fill="#9333EA"/>
+      <rect x="20" y="64" width="36" height="4" rx="2" fill="#bbb"/>
+      <rect x="20" y="78" width="120" height="4" rx="2" fill="#eee"/>
+      <rect x="20" y="88" width="110" height="4" rx="2" fill="#eee"/>
+      <rect x="20" y="112" width="36" height="4" rx="2" fill="#bbb"/>
+      <rect x="20" y="126" width="120" height="4" rx="2" fill="#eee"/>
+      <rect x="20" y="136" width="100" height="4" rx="2" fill="#eee"/>
+      <text x="80" y="202" fill="#999" font-size="11" text-anchor="middle">极简</text>
+    </g>
+    <!-- elegant (band) -->
+    <g transform="translate(580,110)">
+      <rect width="160" height="210" rx="8" fill="#fff"/>
+      <path d="M0,8 a8,8 0 0 1 8,-8 h144 a8,8 0 0 1 8,8 v52 h-160 z" fill="#B91C1C"/>
+      <rect x="18" y="16" width="70" height="8" rx="4" fill="#fff"/>
+      <rect x="18" y="32" width="44" height="5" rx="2.5" fill="#f4c4c4"/>
+      <rect x="18" y="76" width="50" height="6" rx="3" fill="#B91C1C"/>
+      <rect x="18" y="90" width="124" height="4" rx="2" fill="#eee"/>
+      <rect x="18" y="100" width="110" height="4" rx="2" fill="#eee"/>
+      <rect x="18" y="124" width="50" height="6" rx="3" fill="#B91C1C"/>
+      <rect x="18" y="138" width="124" height="4" rx="2" fill="#eee"/>
+      <text x="80" y="202" fill="#999" font-size="11" text-anchor="middle">优雅</text>
+    </g>
+    <!-- compact -->
+    <g transform="translate(760,110)">
+      <rect width="160" height="210" rx="8" fill="#fff"/>
+      <rect x="16" y="14" width="4" height="26" fill="#D97706"/>
+      <rect x="28" y="16" width="70" height="8" rx="4" fill="#2b2b2b"/>
+      <rect x="28" y="30" width="40" height="5" rx="2.5" fill="#D97706"/>
+      <rect x="16" y="56" width="40" height="10" rx="3" fill="#D97706"/>
+      <rect x="16" y="74" width="124" height="4" rx="2" fill="#eee"/>
+      <rect x="16" y="84" width="110" height="4" rx="2" fill="#eee"/>
+      <rect x="16" y="104" width="40" height="10" rx="3" fill="#D97706"/>
+      <rect x="16" y="122" width="58" height="4" rx="2" fill="#eee"/>
+      <rect x="82" y="122" width="58" height="4" rx="2" fill="#eee"/>
+      <text x="80" y="202" fill="#999" font-size="11" text-anchor="middle">紧凑</text>
+    </g>
+  </g>
+</svg>
